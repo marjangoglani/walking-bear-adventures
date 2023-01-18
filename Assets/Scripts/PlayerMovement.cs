@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
 
             // set horizontal walky animation
             animator.SetInteger("HorSpeed", 1);
-            player.localScale = new Vector3(-1, player.localScale.y);       // flip
+            player.localScale = new Vector3(-1, player.localScale.y);       // flip to left walky
             IsFacingRight = false;
 
         }
@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetInteger("HorSpeed", 1);
             if (!IsFacingRight)
             {
-                player.localScale = new Vector3(-1, player.localScale.y);
+                player.localScale = new Vector3(1, player.localScale.y);    // flip back to right walky
                 IsFacingRight = true;
             }
         }
