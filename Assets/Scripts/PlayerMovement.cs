@@ -54,6 +54,15 @@ public class PlayerMovement : MonoBehaviour
 
 /*
  * Today:
- * 2. implement movement script
- * 3. fix animations on the bear (left and right walking)
+ * 1. make backwards and forwards walking
+ * 2. make the animation for back/forward walking
+ * 3. make an apple sprite
+ * 4. create collision with both
+ * 5. butoon appears when it gets in an area around the apple (trigger)
+ * 6. when you click E, choices appear 
+ * 
+ * --------------------------
+ * 1. make the background completely blue tiles
+ * 2. write a script that randomly adds cloud sprites, but they shouldn't be added on to pof eachother
+ * 3. put each cloud in its own canvas and different pngs
  */
