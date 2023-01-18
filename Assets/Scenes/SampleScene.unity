@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 97846416}
   - component: {fileID: 97846417}
   - component: {fileID: 97846418}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,6 +224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 97846413}
+  animator: {fileID: 97846417}
 --- !u!70 &97846416
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -390,7 +391,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522128903}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2103,7 +2104,7 @@ GameObject:
   - component: {fileID: 1912927157}
   - component: {fileID: 1912927159}
   - component: {fileID: 1912927158}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
