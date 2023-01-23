@@ -54,10 +54,8 @@ public class PlayerMovement : MonoBehaviour
 
 /*
  * Today:
- * 1. make backwards and forwards walking
  * 2. make the animation for back/forward walking
- * 3. make an apple sprite
- * 4. create collision with both
+ * 4. create collision with bear and apple
  * 5. butoon appears when it gets in an area around the apple (trigger)
  * 6. when you click E, choices appear 
  * 
